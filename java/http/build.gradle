@@ -1,0 +1,13 @@
+version '1.0-SNAPSHOT'
+
+dependencies {
+    implementation project(':calculator')
+
+    implementation 'org.springframework.boot:spring-boot-starter-web:2.6.3'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test:2.6.3'
+}
+
+test {
+    useJUnitPlatform()
+}
